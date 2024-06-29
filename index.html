@@ -1,13 +1,620 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>StageFear.in</title>
-</head>
-<body>
-    <div id="container" height="100vh" width="100vw">
-        <img src="StageFear Coming Soon!.png" alt="Stagefear Coming Soon" width="100%">
-    </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StageFear: The Ultimate One Day Seminar for Everyone</title>
+    <link href="images/icon.svg" rel="shortcut icon" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles/navbar.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/carousel.css" />
+    <link rel="stylesheet" href="styles/gridCards.css"/>
+    <link rel="stylesheet" href="styles/footer.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navBox">
+        <div class="logo">
+          <img src="images/logo.svg" alt="Company logo" />
+        </div>
+        <!-- <div class="navs">
+          <div class="navItem">
+            Masterclasses <i class="fas fa-angle-down"></i>
+            <div class="dropBox">
+              <div class="showBox">
+                <div class="dropInBox">
+                  <p>Interview Skills</p>
+                </div>
+                <div class="dropInBox">
+                  <p>Communications Skills</p>
+                </div>
+                <div class="dropInBox">
+                  <p>Public Speaking</p>
+                </div>
+                <div class="dropInBox">
+                  <p>Body Language</p>
+                </div>
+                <div class="dropInBox">
+                  <p>Communications Skills</p>
+                </div>
+                <div class="dropInBox">
+                  <p>Performance Marketing Kickstarter</p>
+                  <span
+                    >by Deepan Siddhu, Ashwin Palo
+                    <button><i class="fas fa-circle"></i> Live</button></span
+                  >
+                </div>
+                <div class="dropInBox">
+                  <p>No-Code Mobile App Development</p>
+                  <span
+                    >by Keshav Sharma , Mayank Nagpal
+                    <button><i class="fas fa-circle"></i> Live</button></span
+                  >
+                </div>
+                <div class="dropInBox">
+                  <p>Tech Simplified for PM</p>
+                  <span
+                    >by Vinayak Desai
+                    <button><i class="fas fa-circle"></i> Live</button></span
+                  >
+                </div>
+                <button class="viewAll">View All</button>
+              </div>
+            </div>
+          </div>
+          <div class="navItem">
+            Workshops <i class="fas fa-angle-down"></i>
+            <div class="dropBox">
+              <div class="showBox">
+                <div class="dropInBox">
+                  <p>Learn Natural Language Processing</p>
+                  <span>by Chirasmita Mallick </span>
+                </div>
+                <div class="dropInBox">
+                  <p>Facebook Ads</p>
+                  <span>by Deepan Siddhu, Ashwin Palo </span>
+                </div>
+                <div class="dropInBox">
+                  <p>Growth Hacking</p>
+                  <span>by Vaibhav Sisinty </span>
+                </div>
+                <div class="dropInBox">
+                  <p>Google Ads</p>
+                  <span>by Deepan Siddhu, Ashwin Palo </span>
+                </div>
+                <button class="viewAll">View All</button>
+              </div>
+            </div>
+          </div>
+          <div class="navItem">
+            Passes <i class="fas fa-angle-down"></i>
+            <div class="dropBox">
+              <div class="showBox">
+                <div class="dropInBox">
+                  <p>D2C Menotorship</p>
+                  <span
+                    >by Arjun Vaidya, Trisha Rajani Vaidya
+                    <button><i class="fas fa-circle"></i> Live</button></span
+                  >
+                </div>
+                <div class="dropInBox">
+                  <p>Angel Investing</p>
+                  <span
+                    >by Abhishek Nag, Kumar Aakash
+                    <button><i class="fas fa-circle"></i> Live</button></span
+                  >
+                </div>
+                <div class="dropInBox">
+                  <p>
+                    Performance Marketing Menotorship</p>
+                    <span>by Deepan Siddhu, Ashwin Palo
+                      <button><i class="fas fa-circle"></i> Live</button>
+                    </span>
+                  </p>
+                </div>
+
+                <button class="viewAll">View All</button>
+              </div>
+            </div>
+          </div>
+          <div class="navItem">
+            More <i class="fas fa-angle-down"></i>
+            <div class="dropBox1">
+              <div class="showBox1">
+                <div class="dropInBox1">Guides</div>
+                <div class="dropInBox1">About</div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+        <div class="navLogin">
+          <!-- <button>About Us</button> -->
+          <a href="https://forms.gle/n1TwpePdfCQ7xAye7" target="_blank" rel="noopener noreferrer">
+          <button>Register for Seminar</button>
+        </a>
+        </div>
+        <div class="navMenu " id="openNav">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+      <div class="rightNav" id="rightNav">
+        <div class="navSmall">
+          <!-- <a href="#">Crash Courses</a>
+          <a href="#">Masterclasses</a>
+          <a href="#">Intensive Programs</a>
+          <a href="#">Guides</a>
+          <a href="#">About</a> -->
+          <!-- <a href="#">About Us</a> -->
+          <a href="https://forms.gle/n1TwpePdfCQ7xAye7" target="_blank" rel="noopener noreferrer">
+          <button class="button1">Register for Seminar</button></a>
+          <!-- <button class="button2">Login</button> -->
+        </div>
+      </div>
+    </nav>
+    <section class="section1">
+      <div class="leftBox">
+        <h1>Learn from the Top</h1>
+        <h2>Industry Experts</h2>
+        <p>Lockdown Productions presents -</p>
+        <a href="https://linktr.ee/lockdownproductionsofficial" target="_blank" rel="noopener noreferrer"><button class="exploreBtn">Explore Agenda</button></a>
+      </div>
+      <div class="rightImage">
+        <img src="images/home.png" alt="Home Image">
+      </div>
+    </section>
+    <section class="section2">
+      
+      <!-- <p>College & bookish knowledge doesn’t prepare you for real-world and modern careers. Growth School, co-creates programs with top industry<br/> professionals who can help you get years ahead in your career.</p> -->
+      <div class="agenda">
+        <h1>"Each One Teach One Until We All Learn"</h1>
+        <img src="images/Agenda.png" />
+        <!-- <img src="images/2.png" />
+        <img src="images/3.png" /> -->
+        <!-- <img src="images/4.png" />
+        <img src="images/5.png" /> -->
+      </div>
+      <div class="stats">
+        <div class="eachStat">
+          <h1>20+</h1>
+          <p>Speakers</p>
+        </div>
+        <div class="eachStat">
+          <h1>10</h1>
+          <p>Masterclass sessions</p>
+        </div>
+        <div class="eachStat">
+          <h1>2</h1>
+          <p>Workshops</p>
+        </div>
+        <div class="eachStat">
+          <h1>Infinite</h1>
+          <p>Learning</p>
+        </div>
+      </div>
+    </section>
+    <!-- For Video and content -->
+    <section class="section3">
+      <div class="leftVideoBox">
+        <div class="borderBox">
+          <video class="leftVideo" src="video/introduction.mp4" autoplay loop muted playsinline></video>
+        </div>
+      </div>
+      <div class="rightContent">
+        <div class="eachBox1">
+          <div class="icon"><img src="images/icon1.svg" alt="Interact"/></div>
+          <div class="contentBox">
+            <h1>Interact with the best</h1>
+            <p>Go beyond the screens and get doubts cleared personally</p>
+          </div>
+        </div>
+        <div class="eachBox1">
+          <div class="icon"><img src="images/icon2.svg" alt="Community"/></div>
+          <div class="contentBox">
+            <h1>The Community at the center</h1>
+            <p>Enjoy the best of peer-led learning with tons of events while building lifelong relationships</p>
+          </div>
+        </div>
+        <div class="eachBox1">
+          <div class="icon"><img src="images/icon3.svg" alt="Learn"/></div>
+          <div class="contentBox">
+            <h1>Learn by Doing</h1>
+            <p>Actionable programs to offset the Pareto Principle; you will execute projects using what you learned
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section4">
+      <div class="outerBox">
+        <div class="mentors">
+          <h1>Learn with <br/>
+            Practitioners.😎</h1>
+            <a href="https://drive.google.com/file/d/1YoI_rgan6BFYt9NKwNRCfN0HJZGP-ciN/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+            <button>View All</button></a>
+        </div>
+        <div class="mentorCards">
+          <div class="cardArrow">
+            <button class="arrow_btn"><i class="fas fa-chevron-left"></i></button>
+          </div>
+          <div class="mainBox" id="mainBox">
+            <div class="eachCard">
+              <img src="images/mentors/Anupam.jpg" alt="Anupam Anand">
+              <div class="cardContent">
+                <b>Anupam Anand</b>
+                <br>Anchor | Personality Development & Communications Skills Trainer 
+                <!-- <img src="images/company1.svg" alt=""> -->
+              </div>
+            </div>
+            <div class="eachCard">
+              <img src="images/mentors/Sneha.jpg" alt="Sneha Maheshwari">
+              <div class="cardContent">
+                <b>Sneha Maheshwari</b>
+                <br> Anchor | IPL WPL Host | World Cup Host
+                <!-- <img src="images/company1.svg" alt=""> -->
+              </div>
+            </div>
+            <div class="eachCard">
+              <img src="images/mentors/Siddharth.jpg" alt="Siddharth Bhardwaj">
+              <div class="cardContent">
+                <b>Siddharth Bhardwaj</b>
+                <br>Flautist | Live Performer | Singer  Public Speaker
+                
+                <!-- <img src="images/company1.svg" alt=""> -->
+              </div>
+            </div>
+            <div class="eachCard">
+              <img src="images/mentors/Nisarga.png" alt="Nisarga Gowda">
+              <div class="cardContent">
+                <b>Nisarga Gowda</b>
+                <br>TV Anchor | Motivational Speaker  Content Creator and Influencer
+                <!-- <img src="images/company1.svg" alt=""> -->
+              </div>
+            </div>
+            <div class="eachCard">
+              <img src="images/mentors/Santhosh.jpg" alt="Santhosh Naik">
+              <div class="cardContent">
+                <b>Santhosh Naik</b>
+                <br>Anchor | Image Consultant  Corporate Trainer
+                <!-- <img src="images/company1.svg" alt=""> -->
+              </div>
+            </div>
+            <div class="eachCard">
+              <img src="images/mentors/Suchismita.jpg" alt="Suchismita Chattaraj">
+              <div class="cardContent">
+                <b>Suchismita Chattaraj</b>
+                <br>Global Project Manager | Influencer Motivational Speaker
+                <!-- <img src="images/company1.svg" alt=""> -->
+              </div>
+            </div>
+            <div class="eachCard">
+              <img src="images/mentors/David.png" alt="MC David">
+              <div class="cardContent">
+                <b>MC David</b>
+                <br>Anchor | Team Building Expert Entrepreneur
+                <!-- <img src="images/company1.svg" alt=""> -->
+              </div>
+            </div>
+            <div class="eachCard">
+            
+              <img src="images/mentors/Ananya.png" alt="RJ Ananya">
+              <div class="cardContent">
+                <b>RJ Ananya</b>
+                <br>Youngest RJ of Karnataka | Anchor | Producer | Voice Over Artist
+                <!-- <img src="images/company1.svg" alt=""> -->
+              </div>
+            </div>
+            <div class="eachCard">
+              <img src="images/mentors/Tuhin.jpg" alt="RJ Tuhin">
+              <div class="cardContent">
+                <b>RJ Tuhin</b>
+                <br>Podcaster | Emcee | 
+                Voice over artist Actor | Radio professional
+                <!-- <img src="images/company1.svg" alt=""> -->
+              </div>
+            </div>
+            
+            <div class="eachCard">
+            <div class="eachCard">
+              <img src="images/mentors/Rekha.jpg" alt="">
+              <div class="cardContent">
+                <b>Dr Rekha</b>
+                <br>Researcher | 
+                Medical Officer at KIAL
+                PhD, University of Warwick
+                <!-- <img src="images/company1.svg" alt=""> -->
+              </div>
+            </div>
+            </div>
+          </div>
+          <div class="cardArrow">
+            <button class="arrow_btn"><i class="fas fa-chevron-right"></i></button>
+        </div>
+        </div>
+        <div class="smallArrows">
+          <div class="cardArrow arrowSmall">
+            <button class="arrow_btn"><i class="fas fa-chevron-left"></i></button>
+          </div>
+          <div class="cardArrow arrowSmall">
+            <button class="arrow_btn"><i class="fas fa-chevron-right"></i></button>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="experts">
+        <h1>Experts</h1>
+        <p>from top brands & companies are mentoring at GrowthSchool</p>
+        <div  class="companyLogos rightMovement" id="rightMovement">
+          <div class="moveBox">
+            <div><img src="images/company/logo1.svg" alt=""></div>
+            <div><img src="images/company/logo2.svg" alt=""></div>
+            <div><img src="images/company/logo3.svg" alt=""></div>
+            <div><img src="images/company/logo4.svg" alt=""></div>
+            <div><img src="images/company/logo5.svg" alt=""></div>
+          </div>
+          <div  class="moveBox">
+            <div><img src="images/company/logo1.svg" alt=""></div>
+            <div><img src="images/company/logo2.svg" alt=""></div>
+            <div><img src="images/company/logo3.svg" alt=""></div>
+            <div><img src="images/company/logo4.svg" alt=""></div>
+            <div><img src="images/company/logo5.svg" alt=""></div>
+          </div> 
+        </div>
+        <div  class="companyLogos" id="leftMovement" >
+          <div class="moveBox">
+            <div><img src="images/company/logo6.svg" alt=""></div>
+            <div><img src="images/company/logo1.svg" alt=""></div>
+            <div><img src="images/company/logo2.svg" alt=""></div>
+            <div><img src="images/company/logo3.svg" alt=""></div>
+            <div><img src="images/company/logo4.svg" alt=""></div>
+          </div>
+          <div  class="moveBox">
+            <div><img src="images/company/logo6.svg" alt=""></div>
+            <div><img src="images/company/logo1.svg" alt=""></div>
+            <div><img src="images/company/logo2.svg" alt=""></div>
+            <div><img src="images/company/logo3.svg" alt=""></div>
+            <div><img src="images/company/logo4.svg" alt=""></div>
+          </div>
+        </div>
+      </div> -->
+      <img src="images/StageFear Banner .png" alt="StageFear"/>
+      <!-- <img src="images/StageFear Coming Soon! (Website).png" alt="StageFear"/> -->
+    </section>
+     <section class="section5">
+     </section>
+      <!--<h1>That's what they said ❤️</h1>
+      <p>Students, professionals, and budding entrepreneurs drive and inspire us and make up <br/> the Growth School community. Here's what they have to say.</p>
+      <div class="gridContainer">
+        <div class="gridCard">
+          <img src="images/quote.svg" alt="">
+          <p>First time in my life, I received Blockchain Anchored certificate 🔖 I went through the growth hacking mentorship with Vaibhav Sisinty and GrowthSchool. I learned so many new and unique things regarding growth hacking, and it was mind-blowing, like North star matrics, MTM, Hyper-personalized data-driven marketing, and many more things. Additionally, I made some lovely friends in the cohort system. Vaibhav gave very high-value quality content, and now he amazed us with such a unique, verifiable certificate on the Ethereum network 😯. This was one of the best programs of my life.</p>
+          <div class="userName">
+            <img src="images/users/user.jpeg" alt="">
+            <h2>Sandip Shinde</h2>
+          </div>
+        </div>
+        <div class="gridCard">
+          <img src="images/quote.svg" alt="">
+          <p>Keep learning and keep growing !! No-code is the enabler to convert ideas into realities. Really excited to be part of the bandwagon !!! Keshav Sharma and Mayank Nagpal – it was a great session !!! GrowthSchool kudos for making weekends fun again !!!!</p>
+          <div class="userName">
+            <img src="images/users/user5.jpeg" alt="">
+            <h2>Sreejith Nair</h2>
+          </div>
+        </div>
+        <div class="gridCard">
+          <img src="images/quote.svg" alt="">
+          <p>GrowthSchool you are doing a great job by bringing experienced people like Deepan Siddhu and Ashwin Palo to share their observations and teach people about Performance Marketing! The learning is un-parallel compared to other courses available out there. No matter how many years of experience you have, there is something that you will take away from the webinar! Great Work!</p>
+          <div class="userName">
+            <img src="images/users/user1.jpeg" alt="">
+            <h2>Raj Vasani</h2>
+          </div>
+        </div>
+        <div class="gridCard">
+          <img src="images/quote.svg" alt="">
+          <p>Always good to learn from a new perspective. Brushed up my skills and learned new ones that will enhance Creative as well as Reasoning thinking. Growth School Thanks for the opportunity</p>
+          <div class="userName">
+            <img src="images/users/user3.jpeg" alt="">
+            <h2>Ritika Anand</h2>
+          </div>
+        </div>
+        
+        <div class="gridCard">
+          <img src="images/quote.svg" alt="">
+          <p>Thanks to Vaibhav Sisinty for launching this amazing GrowthSchool, I have attended four of the growth school workshops I’ve learned a lot. I think GrowthSchool helping me achieve my goals. Thanks to GrowthSchool for creating an amazing workshops.</p>
+          <div class="userName">
+            <img src="images/users/user2.jpeg" alt="">
+            <h2>Surbhi Sanodiya</h2>
+          </div>
+        </div>
+        <div class="gridCard">
+          <img src="images/quote.svg" alt="">
+          <p>I want to thank GrowthSchool for hosting such a comprehensive and profound workshop. We all know LinkedIn is a goldmine of opportunities. And this workshop is designed for anyone who wants to kick-start their LinkedIn journey and also want to use it to its full potential. The workshop is well worth your money and time. Thank you Vaibhav Sisinty ↗️ for conducting such an engaging and valuable session and sharing so many incredible hacks.</p>
+          <div class="userName">
+            <img src="images/users/user4.jpeg" alt="">
+            <h2>Pragya Singh</h2>
+          </div>
+        </div>
+        <div class="gridCard">
+          <img src="images/quote.svg" alt="">
+          <p>First time in my life, I received Blockchain Anchored certificate 🔖 I went through the growth hacking mentorship with Vaibhav Sisinty and GrowthSchool. I learned so many new and unique things regarding growth hacking, and it was mind-blowing, like North star matrics, MTM, Hyper-personalized data-driven marketing, and many more things. Additionally, I made some lovely friends in the cohort system. Vaibhav gave very high-value quality content, and now he amazed us with such a unique, verifiable certificate on the Ethereum network 😯. This was one of the best programs of my life.</p>
+          <div class="userName">
+            <img src="images/users/user.jpeg" alt="">
+            <h2>Sandip Shinde</h2>
+          </div>
+        </div>
+        <div class="gridCard">
+          <img src="images/quote.svg" alt="">
+          <p>Keep learning and keep growing !! No-code is the enabler to convert ideas into realities. Really excited to be part of the bandwagon !!! Keshav Sharma and Mayank Nagpal – it was a great session !!! GrowthSchool kudos for making weekends fun again !!!!</p>
+          <div class="userName">
+            <img src="images/users/user5.jpeg" alt="">
+            <h2>Sreejith Nair</h2>
+          </div>
+        </div>
+        <div class="gridCard">
+          <img src="images/quote.svg" alt="">
+          <p>GrowthSchool you are doing a great job by bringing experienced people like Deepan Siddhu and Ashwin Palo to share their observations and teach people about Performance Marketing! The learning is un-parallel compared to other courses available out there. No matter how many years of experience you have, there is something that you will take away from the webinar! Great Work!</p>
+          <div class="userName">
+            <img src="images/users/user1.jpeg" alt="">
+            <h2>Raj Vasani</h2>
+          </div>
+        </div>
+        <div class="gridCard">
+          <img src="images/quote.svg" alt="">
+          <p>Always good to learn from a new perspective. Brushed up my skills and learned new ones that will enhance Creative as well as Reasoning thinking. Growth School Thanks for the opportunity</p>
+          <div class="userName">
+            <img src="images/users/user3.jpeg" alt="">
+            <h2>Ritika Anand</h2>
+          </div>
+        </div>
+        
+        <div class="gridCard">
+          <img src="images/quote.svg" alt="">
+          <p>Thanks to Vaibhav Sisinty for launching this amazing GrowthSchool, I have attended four of the growth school workshops I’ve learned a lot. I think GrowthSchool helping me achieve my goals. Thanks to GrowthSchool for creating an amazing workshops.</p>
+          <div class="userName">
+            <img src="images/users/user2.jpeg" alt="">
+            <h2>Surbhi Sanodiya</h2>
+          </div>
+        </div>
+        <div class="gridCard">
+          <img src="images/quote.svg" alt="">
+          <p>I want to thank GrowthSchool for hosting such a comprehensive and profound workshop. We all know LinkedIn is a goldmine of opportunities. And this workshop is designed for anyone who wants to kick-start their LinkedIn journey and also want to use it to its full potential. The workshop is well worth your money and time. Thank you Vaibhav Sisinty ↗️ for conducting such an engaging and valuable session and sharing so many incredible hacks.</p>
+          <div class="userName">
+            <img src="images/users/user4.jpeg" alt="">
+            <h2>Pragya Singh</h2>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <section class="section5">
+      <h1 >Community-led learning is the future ⚡️</h1>
+      <p >We facilitate a dynamic community to build real-world problem-solving skills.</p>
+    </section>
+    <section class="section3">
+      <div class="leftImgBox">
+          <img class="leftImg" src="images/mobile.png" ></img>
+      </div>
+      <div class="rightContent">
+        <div class="eachBox1">
+          <div class="iconNumber">1</div>
+          <div class="contentBox">
+            <h1>Build relationships beyond networks</h1>
+            <p>Work with motivated peers having fresh out-of-the-box thinking and showing you new ways to do things.</p>
+          </div>
+        </div>
+        <div class="eachBox1">
+          <div class="iconNumber">2</div>
+          <div class="contentBox">
+            <h1>Live events to engage in</h1>
+            <p>Participate in live Q&As, debates, hackathons, and other healthy contests to drive home the learning.</p>
+          </div>
+        </div>
+        <div class="eachBox1">
+          <div class="iconNumber">3</div>
+          <div class="contentBox">
+            <h1>Find career opportunities</h1>
+            <p>Become a part of an ecosystem where members help access opportunities for jobs and freelance projects.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footerBox">
+        <h1>Our Services</h1>
+        <!-- <div class="imgsBox">
+          <div class="bigImages">
+            <div><img src="images/owl.svg" alt=""></div>
+            <div><img src="images/footer2.svg" alt=""></div>
+          </div>
+          <div class="inverstors">
+            <p>80+ Angel Inverstors</p>
+            <div class="overlapImages">
+              <img src="images/users/user.jpeg" alt="" >
+              <img src="images/users/user1.jpeg" alt="">
+              <img src="images/users/user2.jpeg" alt="">
+              <img src="images/users/user3.jpeg" alt="">
+              <img src="images/users/user4.jpeg" alt="">
+              <img src="images/users/user5.jpeg" alt="">
+              <img src="images/users/user.jpeg" alt="">
+              <img src="images/users/user1.jpeg" alt="">
+            </div>
+            <div class="overlapImages">
+              <img src="images/users/user.jpeg" alt="" >
+              <img src="images/users/user1.jpeg" alt="">
+              <img src="images/users/user2.jpeg" alt="">
+              <img src="images/users/user3.jpeg" alt="">
+              <img src="images/users/user4.jpeg" alt="">
+              <img src="images/users/user5.jpeg" alt="">
+              <img src="images/users/user.jpeg" alt="">
+              <img src="images/users/user1.jpeg" alt="">
+            </div>
+            <button class="viewAll1"> & many more</button>
+          </div>
+        </div> -->
+        <div class="footer2">
+          <div class="contact">
+            <!-- <h2>What's up?</h2>
+            <p>Get updates on new programs, workshops, the latest developments, and community activities, straight to your inbox.</p>
+            <div class="emailBox">
+              <input type="email" placeholder="Enter your email" />
+              <button><i class="fas fa-chevron-right"></i></button>
+            </div> -->
+            
+          <div class="infoBox">
+            <div class="eachInfo">
+              <button><a href="https://drive.google.com/file/d/1nYPkPjnHUGNv5GAb4ajH0gkxbvNmXp-3/view?usp=sharing" target="_blank" rel="noopener noreferrer"><h2>Social Media Marketing</h2></a></button>
+              <!-- <a href="#">About Us</a>
+              <a href="#">Case Studies</a>
+              <a href="#">Contact Us</a>
+              <a href="#">Refund Policy</a> -->
+            </div>
+            <div class="eachInfo">
+              <button><a href="https://drive.google.com/file/d/1D_oTU8B5WqHNZf7qhIoBfNSn0K8LF1RA/view?usp=share_link" target="_blank" rel="noopener noreferrer"><h2>Other Services We Provide</h2></a></button>
+              <!-- <a href="#">Crash Course</a>
+              <a href="#">Masterclasses</a>
+              <a href="#">Intensive Programs</a> -->
+            </div>
+            <!-- <div class="eachInfo">
+              <button><a href="" target="_blank" rel="noopener noreferrer"><h2>About Us</h2></a></button>
+              <a href="#">We Hiring</a>
+              <a href="#">Apply as Mentor</a>
+              <img src="images/logo2.svg" alt="" class="logo2">
+            </div> -->
+          </div>
+          <div class="contactIcons">
+            <a href="https://www.instagram.com/lockdownproductionsofficial/" target="_blank" rel="noopener noreferrer">
+              <img src="images/brands/instagram.svg" alt="Lockdown Productions Instagram Profile">
+              
+            </a>
+            <a href="https://www.facebook.com/lockdownproductionsfacebook" target="_blank" rel="noopener noreferrer">
+              <img src="images/brands/facebook.svg" alt="Lockdown Productions Facebook Page">
+            </a>
+            
+            <a href="https://www.youtube.com/channel/UCI3LQWC0RnGjdAxcubh9m0A" target="_blank" rel="noopener noreferrer">
+              <img src="images/brands/youtube.svg" alt="Lockdown Productions YouTube Channel">
+            </a>
+            <a href="https://www.linkedin.com/company/lockdownproductionsofficial" target="_blank" rel="noopener noreferrer">
+              <img src="images/brands/linkedin.svg" alt="Lockdown Productions LinkedIn Profile">
+              
+            </a>
+            <a href="https://x.com/lockproofficial" target="_blank" rel="noopener noreferrer">
+              <img src="images/brands/twitter.svg" alt="Lockdown Productions Twitter Profile">
+              
+            </a>
+            <!-- <img src="images/brands/twitter.svg" alt="Lockdown Productions Twitter Profile"> -->
+            
+          </div>
+          <p>Developed by Lockdown Productions</p>
+        </div>
+        </div>
+      </div>
+    </footer>
+    
+    <script src="styles/carousel.js"></script>
+    <script src="styles/navScript.js"></script>
+  </body>
 </html>
