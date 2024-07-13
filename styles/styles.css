@@ -21,10 +21,10 @@
   line-height: 1.5;
 }
 .leftBox h2 {
-  font-size: 96px;
+  font-size: 68px;
   z-index: -1;
   line-height: 1;
-  font-weight: 700;
+  font-weight: 600;
   position: relative;
 }
 .leftBox h2::before {
